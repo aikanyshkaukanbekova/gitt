@@ -1,32 +1,60 @@
-# Prerequisites
+
+# Создано https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode
+# Редактировать по адресу https://www.toptal.com/developers/gitignore?templates=c++,visualstudiocode
+
+### C++ ###
+# Предпосылки
 *.d
 
-# Compiled Object files
+# Скомпилированные объектные файлы
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+# Прекомпилированные заголовки
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Скомпилированные динамические библиотеки
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
+# Файлы модулей Fortran
 *.mod
 *.smod
 
-# Compiled Static libraries
+# Скомпилированные статические библиотеки
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
-*.exe
+# Исполняемые
+файлы *.exe
 *.out
 *.app
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-фрагменты кода
+
+# Локальная история для кода Visual Studio
+.история/
+
+# Встроенные расширения кода Visual Studio
+*.vsix
+
+### VisualStudioCode Патч ###
+# Игнорировать всю локальную историю файлов
+.история
+.ионид
+
+# Поддержка области действия фрагмента проекта
+
+# Конец https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode
